@@ -22,4 +22,4 @@ collections:
 nav_sort: case_insensitive
 
 # Set the base directory
-baseurl: "/book-mas"
+#baseurl: "/book-mas"
