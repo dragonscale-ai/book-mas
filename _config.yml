@@ -5,21 +5,18 @@ theme: "just-the-docs"
 # Use the remote theme
 remote_theme: pmarsceill/just-the-docs
 
-# Point GitHub Pages to the /docs directory
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
-# Enable documentation collection
-collections:
-  docs:
-    permalink: "/:path/"
-    output: true
-
 # Navigation settings
 nav_sort: case_insensitive
 
 # Set the base directory
-#baseurl: "/book-mas"
+baseurl: "/book-mas"
+
+# Tell Jekyll to use the `/docs` directory as the source
+source: docs
+
+# Enable relative links for internal navigation
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
