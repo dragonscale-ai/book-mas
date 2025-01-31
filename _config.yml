@@ -2,16 +2,24 @@ title: "AI Platforms With Multi-Agent Systems"
 description: "An exploration of the transformative power of multi-agent AI systems, guiding businesses and developers in designing, deploying, and managing autonomous AI agents to enhance efficiency, scalability, and adaptability across various industries."
 theme: "just-the-docs"
 
-# Enable GitHub Pages remote theme
+# Use the remote theme
 remote_theme: pmarsceill/just-the-docs
+
+# Point GitHub Pages to the /docs directory
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Enable documentation collection
+collections:
+  docs:
+    permalink: "/:path/"
+    output: true
 
 # Navigation settings
 nav_sort: case_insensitive
-nav_order: 1
 
-# Have just-the-docs recognize the docs folder
-just_the_docs:
-  collections:
-    docs:
-      permalink: "/:path/"
-      output: true
+# Set /docs as the base directory (important for GitHub Pages)
+baseurl: "/your-repo-name"
