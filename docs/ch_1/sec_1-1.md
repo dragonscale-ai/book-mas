@@ -1,3 +1,9 @@
+---
+title: Section 1.1
+layout: default
+parent: Chapter 1
+---
+
 # The Rise of AI Tools and Their Limitations in Solving Complex Problems
 
 ## Evolution of Traditional AI Tools: A Historical Perspective
