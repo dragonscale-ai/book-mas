@@ -1,3 +1,9 @@
+---
+title: Section 1.3
+layout: default
+parent: Chapter 1
+---
+
 # Moving Beyond Traditional AI: The Multi-Agent Paradigm
 
 ## Understanding the Limitations of Traditional AI Models
