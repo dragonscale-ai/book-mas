@@ -21,3 +21,12 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+
+# Color scheme
+color_scheme: light # or dark
+
+# Miscellaneous
+enable_copy_code_button: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
