@@ -1,3 +1,9 @@
+---
+title: Section 1.2
+layout: default
+parent: Chapter 1
+---
+
 # Why Autonomy Matters: Lessons from Early Systems to Modern Agentic AI  
 
 ## The Rise of Early Automation: Promise and Challenges
