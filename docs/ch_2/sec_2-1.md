@@ -5,7 +5,7 @@ parent: Chapter 2
 nav_order: 1
 ---
 
-# How multi-agent AI transforms workflows and drives efficiency
+# How Multi-Agent AI Transforms Workflows and Drives Efficiency
 
 ## Introduction to Multi-Agent AI in Business Workflows
 
