@@ -1,3 +1,9 @@
+---
+layout: default
+title: Outline
+nav_order: 3
+---
+
 # Outline
 
 ## **1. Understanding the Evolution of AI: From Tools to Autonomous Systems**  
