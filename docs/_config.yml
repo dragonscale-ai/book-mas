@@ -2,7 +2,7 @@ title: Multi-Agent Systems
 description: An exploration of the transformative power of multi-agent AI systems, guiding businesses and developers in designing, deploying, and managing autonomous AI agents to enhance efficiency, scalability, and adaptability across various industries.
 
 # Use a remote theme
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 search_enabled: true
 
 # Navigation settings
@@ -30,3 +30,5 @@ enable_copy_code_button: true
 heading_anchors: true
 back_to_top: true
 back_to_top_text: "Back to top"
+
+ga_tracking: "G-MYCT3HB73M"
