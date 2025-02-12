@@ -9,8 +9,8 @@ search_enabled: true
 nav_sort: case_insensitive
 
 # URL settings
-url: https://dragonscale-ai.github.io/book-mas/
-baseurl: /book-mas
+url: https://mas-book.dragonscale.ai
+baseurl: /
 
 # Build settings
 plugins:
