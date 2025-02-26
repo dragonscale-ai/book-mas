@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Section 2.2
+title: 2.2 Mapping Enterprise Needs to Multi-Agent Capabilities
 parent: Chapter 2
 nav_order: 1
 ---
