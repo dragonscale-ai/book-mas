@@ -1,7 +1,7 @@
 ---
 title: 1.2 Why Autonomy Matters
 layout: default
-parent: Chapter 1
+parent: 1. Understanding the Evolution of AI
 ---
 
 # Why Autonomy Matters: Lessons from Early Systems to Modern Agentic AI  
