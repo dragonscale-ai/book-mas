@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Section 2.1
+title: 2.1 How Multi-Agent AI Transforms Workflows and Drives Efficiency
 parent: Chapter 2
 nav_order: 1
 ---
