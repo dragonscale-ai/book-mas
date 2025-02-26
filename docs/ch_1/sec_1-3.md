@@ -1,7 +1,7 @@
 ---
 title: 1.3 Moving Beyond Traditional AI
 layout: default
-parent: Chapter 1
+parent: 1. Understanding the Evolution of AI
 ---
 
 # Moving Beyond Traditional AI: The Multi-Agent Paradigm
