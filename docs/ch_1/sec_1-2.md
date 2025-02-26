@@ -1,5 +1,5 @@
 ---
-title: 1.2 Why Autonomy Matters: Lessons from Early Systems to Modern Agentic AI 
+title: 1.2 Why Autonomy Matters
 layout: default
 parent: Chapter 1
 ---
