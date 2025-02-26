@@ -1,5 +1,5 @@
 ---
-title: Section 1.3
+title: 1.3 Moving Beyond Traditional AI: The Multi-Agent Paradigm
 layout: default
 parent: Chapter 1
 ---
