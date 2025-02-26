@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2.1 How Multi-Agent AI Transforms Workflows and Drives Efficiency
-parent: Chapter 2
+parent: 2. Unlocking the Potential of Multi-Agent AI in Your Organization
 nav_order: 1
 ---
 
