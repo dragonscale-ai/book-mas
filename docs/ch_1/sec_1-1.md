@@ -1,5 +1,5 @@
 ---
-title: Section 1.1
+title: 1.1 The Rise of AI Tools and Their Limitations in Solving Complex Problems
 layout: default
 parent: Chapter 1
 ---
