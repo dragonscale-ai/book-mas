@@ -1,7 +1,7 @@
 ---
 title: 1.1 The Rise of AI Tools and Their Limitations in Solving Complex Problems
 layout: default
-parent: Chapter 1
+parent: 1. Understanding the Evolution of AI
 ---
 
 # The Rise of AI Tools and Their Limitations in Solving Complex Problems
