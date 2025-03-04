@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Overcoming Resistance
-parent: Unlocking the Potential of Multi-Agent AI in Your Organization
+title: 2.3 Overcoming Resistance
+parent: 2. Unlocking the Potential of Multi-Agent AI in Your Organization
 nav_order: 1
 ---
 
