@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3.1 Identifying High-Value Problems Suited to Multi-Agent Systems
-parent: Deciding When Multi-Agent AI Is the Right Solution
+parent: 3. Deciding When Multi-Agent AI Is the Right Solution
 nav_order: 1
 ---
 
