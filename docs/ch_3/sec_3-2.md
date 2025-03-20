@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3.2 Understanding the Trade-offs: Operational Overhead vs. Scalability
+title: 3.2 Understanding the Trade-offs of Operational Overhead vs. Scalability
 parent: 3. Deciding When Multi-Agent AI Is the Right Solution
 nav_order: 1
 ---
