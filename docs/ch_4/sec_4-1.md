@@ -1,4 +1,4 @@
-----
+---
 layout: default
 title: 4.1 Breaking Down Complex Problems into Agentic Workflows
 parent: 4. Designing Modular Systems for Adaptability and Scale
