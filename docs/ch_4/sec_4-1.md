@@ -23,7 +23,7 @@ The shift toward agentic workflows reflects a broader trend in software and syst
 
 ## DAGs for Scalable Agent Systems
 
-At the core of scalable multi-agent architectures lies a simple yet powerful abstraction: the directed acyclic graph, or DAG. This structure, long favored in data processing, is important to how agentic AI systems are designed and executed. DAGs offer a principled way to manage dependencies between agents and prevent circular logic.
+The DAG forms the core of a simple, powerful, and scalable multi-agent architecture. This structure, long favored in data processing, is important to how agentic AI systems are designed and executed. DAGs offer a principled way to manage dependencies between agents and prevent circular logic.
 
 A DAG is a graph composed of nodes and directed edges, where each edge has a direction and no cycles exist. In the context of agentic AI, each node typically represents a functional unit, an AI agent responsible for a specific task, while the edges indicate dependencies or data flow between agents. The acyclic nature of DAGs guarantees that the system has a well-defined execution order. This is critical when tasks need to be performed in a specific sequence, or when later steps depend on outputs from earlier ones.
 
