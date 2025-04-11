@@ -1,4 +1,4 @@
------
+---
 layout: default
 title: 4.2 Designing Agents to Specialize Without Rigid Dependencies
 parent: 4. Designing Modular Systems for Adaptability and Scale
