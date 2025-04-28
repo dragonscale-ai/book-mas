@@ -33,7 +33,7 @@ Ensuring data quality, consistency, and traceability across a multi-agent system
 
 By focusing on these principles, enterprises can build data pipelines that not only enable agent collaboration but also maintain the reliability, transparency, and operational rigor required for production-grade systems. In agentic AI, pipelines actively support intelligent, modular, and scalable workflows.
 
-# Architecting Data Flow: Patterns and Best Practices
+## Architecting Data Flow: Patterns and Best Practices
 
 Reliable, scalable data flow in multi-agent systems depends on carefully structuring communication and task dependencies. Agentic architectures often use messaging-driven coordination and the use of directed acyclic graph (DAG) structures to model interactions. These patterns provide the necessary organization to manage complexity, prevent failure cascades, and optimize throughput.
 
