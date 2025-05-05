@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5.2 Harnessing Modularity to Customize SolutionsSystems
+title: 5.2 Harnessing Modularity to Customize Solutions
 parent: 5. Building Agentic Applications That Align with Business Goals
 nav_order: 1
 ---
