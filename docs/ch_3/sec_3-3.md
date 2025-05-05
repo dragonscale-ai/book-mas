@@ -49,16 +49,7 @@ Consider a customer support scenario involving billing, technical troubleshootin
 
 Solving this requires a shift in architectural thinking. One solution is the introduction of shared context systems—centralized stores where agents can read and write session data. These systems act like working memory buffers, allowing agents to operate with a consistent view of the current state. Proper access controls and memory scoping prevent agents from overstepping their boundaries while still enabling seamless handoffs.
 
-## Key Takeaways
-
-- Solutions Engineer: Agentic AI isn't just a cool demo; scaling it demands rigorous task design, robust memory handling, and traceable agent interactions or you risk constantly babysitting brittle workflows.
-
-- Architect: The success of multi-agent systems hinges on treating memory, observability, and role clarity as infrastructure, not features; without this, systems collapse under real-world complexity.
-
-- Business User: Impressive prototypes mean nothing if agents can't remember, coordinate, or recover; real ROI comes from engineering for resilience, not from flashy AI theatrics.
-
-
-Vector databases are another key tool, particularly for augmenting long-term memory. By storing previous interactions, documents, or embeddings of user history, agents can retrieve relevant context on demand. This is especially useful for information retrieval and knowledge grounding. When used with retrieval-augmented generation (RAG), agents can reason over this memory in a dynamic, context-aware manner.
+Vector databases are another possible tool, particularly for augmenting long-term memory. By storing previous interactions, documents, or embeddings of user history, agents can retrieve relevant context on demand. This is especially useful for information retrieval and knowledge grounding. When used with retrieval-augmented generation (RAG), agents can reason over this memory in a dynamic, context-aware manner.
 
 Architecturally, memory should be treated as a first-class citizen. Memory-scoped designs assign each agent a clear boundary of what it must remember, what it can forget, and what it should share. Persistent memory layers can be layered into orchestration frameworks, allowing agents to checkpoint their state and recover from interruptions. In more advanced setups, memory modules can even track the reliability of past actions, enabling agents to learn and adapt over time.
 
@@ -111,3 +102,11 @@ Governance mechanisms provide the guardrails necessary to enforce consistency an
 Beyond tooling and architecture, resilience also requires a cultural shift. Agentic systems are not static products—they are dynamic ecosystems that must evolve alongside user needs and organizational processes. Teams should embrace iterative deployment models, similar to those in continuous delivery pipelines. Agents should be instrumented to capture telemetry that informs real-world usage patterns. Post-deployment refinements—prompt adjustments, memory scope tuning, and delegation path corrections—should be treated as part of the normal lifecycle, not emergency fixes.
 
 This culture of observability, feedback, and rapid iteration is what allows multi-agent systems to thrive under scale. It turns complexity into a navigable terrain and ensures that small issues are surfaced and corrected before they compound. Building resilient agentic systems is not a matter of adding more agents or tuning prompts—it’s about engineering systems that can reason, remember, and recover in the face of real-world variability.
+
+## Key Takeaways
+
+- Solutions Engineer: Agentic AI isn't just a cool demo; scaling it demands rigorous task design, robust memory handling, and traceable agent interactions or you risk constantly babysitting brittle workflows.
+
+- Architect: The success of multi-agent systems hinges on treating memory, observability, and role clarity as infrastructure, not features; without this, systems collapse under real-world complexity.
+
+- Business User: Impressive prototypes mean nothing if agents can't remember, coordinate, or recover; real ROI comes from engineering for resilience, not from flashy AI theatrics.
