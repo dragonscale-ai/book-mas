@@ -64,7 +64,7 @@ nav_order: 2
   - Examples of modular agent customization to meet domain-specific requirements.  
 - **Measuring success: KPIs and metrics for agentic AI implementation**  
   - Metrics for efficiency: Task completion rates, orchestration overhead, and error recovery.  
-  - Business-oriented KPIs: Time saved, cost reduction, and workflow reliability.  
+  - Business-oriented KPIs: Time saved, cost reduction, and alignment with strategic AI roadmaps.  
 
 ## **6. Creating User-Friendly Interfaces for Complex Agentic Workflows**  
 - **Roles**: Front End Developer, Business User, Product Manager  
@@ -73,10 +73,10 @@ nav_order: 2
   - Automated UI generation based on agent workflow and task context.  
 - **Designing interfaces that evolve alongside workflows**  
   - Dynamic UI updates reflecting agent and task lifecycle changes.  
-  - Integrating RAG-driven insights into user-facing dashboards.  
+  - Integrating RAG-driven insights and pilot KPIs into user-facing dashboards.  
 - **Ensuring trust and transparency through human-in-the-loop features**  
   - Interactive error correction and task verification in agent systems.  
-  - Visualization of agent decision-making paths for user assurance.  
+  - Visualization of agent decision-making paths for user assurance and governance compliance.  
 
 ## **7. Strengthening Security, Privacy, and Compliance for Multi-Agent AI**  
 - **Roles**: Security Ops, CIO, CDO, Domain Expert  
@@ -88,16 +88,16 @@ nav_order: 2
   - Policy-driven access frameworks for agent interactions.  
 - **Building compliance into the architecture from day one**  
   - Incorporating observability and traceability for audit readiness.  
-  - Adhering to industry-specific compliance standards (e.g., GDPR, HIPAA).  
+  - Aligning with regulatory and enterprise governance frameworks outlined in pilot readiness assessments.  
 
 ## **8. Deploying and Managing Multi-Agent Systems in Production**  
 - **Roles**: DevOps, Sysops, Application Developer  
 - **Exploring deployment options: Cloud, on-premise, and hybrid systems**  
   - Comparison of deployment models for scalability and cost-efficiency.  
-  - Real-world examples of multi-agent production environments.  
+  - Real-world examples of multi-agent production environments aligned with feasibility studies.  
 - **Ensuring robust monitoring and observability in live environments**  
   - Tools and techniques for tracing and debugging agent workflows.  
-  - Metrics-driven performance analysis for operational stability.  
+  - Metrics-driven performance analysis for operational stability and value realization.  
 - **Scaling systems efficiently to handle dynamic workloads**  
   - Leveraging dynamic resource allocation for agents.  
   - Ensuring fault tolerance through distributed task orchestration.  
@@ -106,26 +106,26 @@ nav_order: 2
 - **Roles**: AI/Backend Developer, Product Manager, Architect  
 - **Lifelong learning: Enabling agents to adapt and improve over time**  
   - Integrating learning mechanisms for episodic and procedural memory updates.  
-  - Continuous deployment pipelines for iterative agent enhancement.  
+  - Continuous deployment pipelines for iterative agent enhancement informed by pilot feedback loops.  
 - **Using performance metrics to refine workflows and behaviors**  
   - Automated feedback loops for error correction and efficiency gains.  
 - **Bridging the gap between deterministic rules and probabilistic reasoning**  
   - Balancing structured code and LLM-driven reasoning for optimal performance.  
 
 ## **10. Real-World Case Studies: How Businesses Are Harnessing Agentic AI**  
-- **Roles**: Common
+- **Roles**: Common  
 - **Financial transformation: Automating month-end close processes**  
   - Implementation of data ingestion pipelines and report generation agents.  
 - **Streamlining telecom support: Coordinating diagnostics and upgrades**  
   - Agent networks for troubleshooting and customer communication.  
 - **Revolutionizing e-commerce: Enhancing customer service with intelligent escalation paths**  
-  - Modular design for integrating multi-agent customer support workflows.  
+  - Modular design for integrating multi-agent customer support workflows aligned to automation patterns.  
 
 ## **11. The Future of Agentic AI and Its Role in Business Transformation**  
-- **Roles**: Common
+- **Roles**: Common  
 - **Exploring emerging trends: Multi-modal reasoning and distributed intelligence**  
   - Combining vision, language, and action in multi-agent workflows.  
 - **Preparing for autonomous AI: The next phase of agentic systems**  
-  - Steps toward self-optimizing and autonomous agent networks.  
+  - Steps toward self-optimizing and autonomous agent networks informed by ongoing pilot execution insights.  
 - **Shaping the future: Collaborating with AI as adaptive, strategic partners**  
-  - Co-creating workflows where AI complements human decision-making.  
+  - Co-creating workflows where AI complements human decision-making within enterprise-aligned frameworks.  
