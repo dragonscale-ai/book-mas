@@ -6,6 +6,9 @@ nav_order: 2
 
 # Outline
 
+## Roles
+The book has been structured around various business and technical roles to allow for more selective reading. Each chapter is labeled in the outline with the roles to which it is most relevant. You can read the book straight through, or you can just dip into those chapter that pertain to the roles you are most interested in. Chapters labeled "Common" are applicable to all roles.
+
 ## **1. Understanding the Evolution of AI: From Tools to Autonomous Systems**  
 - **Roles**: Common
 - **The rise of AI tools and their limitations in solving complex problems**  
