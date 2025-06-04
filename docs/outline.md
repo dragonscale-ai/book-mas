@@ -75,8 +75,8 @@ The book has been structured around various business and technical roles to allo
   - Using conversational interfaces to bridge complexity and usability.  
   - Automated UI generation based on agent workflow and task context.  
 - **Designing interfaces that evolve alongside workflows**  
-  - Dynamic UI updates reflecting agent and task lifecycle changes.  
-  - Integrating RAG-driven insights and pilot KPIs into user-facing dashboards.  
+  - Design for natural communication by mirroring human conversation to elevate conversational interfaces.
+  - Support evolving workflows with adaptable, multimodal interactions across text, voice, and video. 
 - **Ensuring trust and transparency through human-in-the-loop features**  
   - Interactive error correction and task verification in agent systems.  
   - Visualization of agent decision-making paths for user assurance and governance compliance.  
