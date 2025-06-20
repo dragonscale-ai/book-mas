@@ -31,7 +31,7 @@ In contrast, batch processing is often used for workflows that involve heavy com
 
 Ensuring data quality, consistency, and traceability across a multi-agent system is non-negotiable. Data validation must be built into every stage of the pipeline: agents should verify input schemas before processing and output schemas before transmission. Consistency is preserved by maintaining strong typing and versioning of data payloads. To achieve traceability, every data transaction must be logged with metadata capturing the originating agent, timestamps, processing steps, and any transformations applied. Structured logging and distributed tracing systems, such as [OpenTelemetry](https://opentelemetry.io/), can provide comprehensive visibility into agentic workflows, aiding both debugging and system optimization.
 
-By focusing on these principles, enterprises can build data pipelines that not only enable agent collaboration but also maintain the reliability, transparency, and operational rigor required for production-grade systems. In agentic AI, pipelines actively support intelligent, modular, and scalable workflows.
+By focusing on these principles, enterprises can build data pipelines that maintain the reliability, transparency, and operational rigor required for production-grade systems. In agentic AI, pipelines actively support intelligent, modular, and scalable workflows.
 
 ## Architecting Data Flow: Patterns and Best Practices
 
