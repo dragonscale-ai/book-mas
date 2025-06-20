@@ -31,7 +31,7 @@ To practically implement these criteria, organizations can utilize specialized t
 
 ## Estimating ROI for Multi-Agent Implementation
 
-Evaluating the return on investment (ROI) for multi-agent systems is essential for organizations to justify their adoption and effectively allocate resources. To assess ROI comprehensively, organizations should consider not only direct productivity and efficiency gains but also indirect benefits, such as improved user experiences, reduced error rates, and enhanced operational resilience.
+Evaluating the return on investment (ROI) for multi-agent systems is essential for organizations to justify their adoption and effectively allocate resources. To assess ROI comprehensively, organizations should consider direct and indirect productivity and efficiency gains, such as improved user experiences, reduced error rates, and enhanced operational resilience.
 
 One of the primary drivers for adopting multi-agent systems is the potential for productivity improvement. By distributing tasks among specialized agents, systems can concurrently execute processes that would traditionally run sequentially. In a customer support environment, parallel handling of technical troubleshooting, billing inquiries, and scheduling can dramatically reduce response times and increase overall throughput. Quantifying these gains involves measuring the reduction in task completion times and improvements in resource utilization rates. Benchmarking current workflows versus those enhanced by multi-agent systems can provide clear metrics, such as average handling time per customer request, reduction in wait times, and increased task completion rates.
 
