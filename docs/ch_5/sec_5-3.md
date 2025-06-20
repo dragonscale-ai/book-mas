@@ -17,7 +17,7 @@ This shift mirrors the evolution of other complex software systems. Just as [obs
 
 Moreover, metrics create a shared language between technical and non-technical stakeholders. Engineers can monitor agent throughput and latency; product managers can track task success rates and failure modes; business leaders can quantify cost savings and ROI. This shared visibility helps teams stay coordinated and enables agent development to reflect real-world usage.
 
-As organizations build more sophisticated agent networks, incorporating specialized tools, handoffs, contextual memory, and asynchronous communication, the complexity of evaluating performance increases. Static performance benchmarks are insufficient. Instead, measurement must be dynamic and context-aware, adapting to the evolving structure and role of each agent in the system. Clear measurement criteria are not just operational hygiene; they are a prerequisite for responsible AI deployment at scale.
+As organizations build more sophisticated agent networks, incorporating specialized tools, handoffs, contextual memory, and asynchronous communication, the complexity of evaluating performance increases. Static performance benchmarks are insufficient. Instead, measurement must be dynamic and context-aware, adapting to the evolving structure and role of each agent in the system. Clear measurement criteria are a prerequisite for responsible AI deployment at scale.
 
 ## Core Efficiency Metrics for Multi-Agent Workflows
 
@@ -53,7 +53,7 @@ Pipeline monitoring provides a higher-level view, tracking the flow of data and 
 
 Integrating continuous feedback into the development and deployment lifecycle is critical for iterative improvement. Feedback can come from both automated signals and human-in-the-loop systems. On the automated side, performance regressions, failed tool calls, or unhandled edge cases should trigger alerts and contribute to retraining data or workflow revisions. On the human side, user ratings, corrections, or task overrides should be systematically captured and fed back into agent logic. This feedback process helps refine agent behavior to improve accuracy and reliability in actual usage.
 
-Observability is a foundational requirement for deploying agentic systems in production. Without it, there’s no reliable way to evaluate effectiveness or ensure accountability. By instrumenting agents and workflows with traceable, real-time insights and feedback loops, organizations can build AI systems that are not only functional but also transparent, adaptive, and trustworthy.
+Observability is a foundational requirement for deploying agentic systems in production. Without it, there’s no reliable way to evaluate effectiveness or ensure accountability. By instrumenting agents and workflows with traceable, real-time insights and feedback loops, organizations can build AI systems that are transparent, adaptive, and trustworthy.
 
 ## Cross-Functional Dashboards and Reporting Strategies
 
