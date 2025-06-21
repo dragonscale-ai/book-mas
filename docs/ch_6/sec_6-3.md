@@ -15,7 +15,7 @@ This shift has led to a fundamental concern: how do we ensure that the decisions
 
 The consequences of untrustworthy behavior are already evident. A customer support agent misclassifying a ticket may delay urgent service recovery. An HR agent misprocessing a bereavement request might lead to reputational harm and employee dissatisfaction. In finance, incorrect handling of compliance data can lead to regulatory penalties. These are well-documented failure modes that become more pronounced as AI agents are granted greater autonomy in enterprise environments.
 
-Enterprise governance structures are evolving in response. Regulatory frameworks increasingly emphasize explainability, auditable behavior, and the need for human override capabilities. Standards such as [ISO/IEC 23894](https://stendard.com/en-sg/blog/iso-23894/) and sector-specific AI compliance guidelines are becoming expectations. Organizations deploying agentic AI are expected to demonstrate control over these systems, not just at the point of deployment but throughout their lifecycle.
+Enterprise governance structures are evolving in response. Regulatory frameworks increasingly emphasize explainability, auditable behavior, and the need for human override capabilities. Standards such as [ISO/IEC 23894](https://stendard.com/en-sg/blog/iso-23894/) and sector-specific AI compliance guidelines are becoming expectations. Organizations deploying agentic AI are expected to demonstrate control over these systems throughout their lifecycle.
 
 Trust requires clear processes, accountability, and human oversight. Without them, organizations face increased risk, reduced user confidence, and potential compliance issues.
 
@@ -23,7 +23,7 @@ Our focus is on how to meet those expectations. Specifically, how human-in-the-l
 
 ## The Role of Human-in-the-Loop in Modern Agentic Systems
 
-[Human-in-the-loop](https://cloud.google.com/discover/human-in-the-loop) (HITL) is a critical design principle in agentic AI systems, especially when these systems are deployed in decision-critical enterprise environments. At its core, HITL refers to a workflow where human input is embedded within the agentic decision loop, either as a checkpoint, collaborator, or fallback mechanism. In the context of multi-agent architectures, HITL is not just about oversight; it is a structural component that enables adaptive control, error recovery, and compliance with institutional safeguards.
+[Human-in-the-loop](https://cloud.google.com/discover/human-in-the-loop) (HITL) is a critical design principle in agentic AI systems, especially when these systems are deployed in decision-critical enterprise environments. At its core, HITL refers to a workflow where human input is embedded within the agentic decision loop, either as a checkpoint, collaborator, or fallback mechanism. In the context of multi-agent architectures, HITL is a structural component that enables adaptive control, error recovery, and compliance with institutional safeguards.
 
 Modern multi-agent systems operate across complex, interdependent tasks. Agents coordinate across departments, query external APIs, synthesize data, and take action based on probabilistic reasoning. Embedding HITL into these flows means allowing human operators to pause, modify, or approve actions at key junctions. This transforms the system from a black box into a semi-transparent loop where human knowledge complements machine reasoning.
 
@@ -47,7 +47,7 @@ In financial report generation, another common failure mode involves agents misi
 
 Embedding these mechanisms into agentic systems has three main benefits. First, it reduces the failure rate by enabling fast recovery. Instead of restarting an entire workflow or escalating every issue to manual resolution, users fix only the affected components. Second, it creates a tighter feedback loop between users and agents. Each correction becomes an implicit training signal that can be captured, analyzed, and reused to improve future performance. This feedback might be used for memory updates, prompt refinements, or scoring adjustments. Finally, user satisfaction increases significantly. Trust in the system grows when users feel empowered to correct it rather than being constrained by its limitations.
 
-In high-stakes environments, this recoverability is not a luxury. Designing agentic systems to be correctable in-flight reflects a broader shift in AI engineering: from static models to dynamic, adaptive systems that improve through interaction. Interactive error correction is not just a safety net; it is a core interface between human judgment and machine execution.
+In high-stakes environments, this recoverability is not a luxury. Designing agentic systems to be correctable in-flight reflects a broader shift in AI engineering: from static models to dynamic, adaptive systems that improve through interaction. Interactive error correction is a core interface between human judgment and machine execution.
 
 ## Task Verification and Approval Workflows
 
@@ -59,13 +59,13 @@ These checkpoints can be configured dynamically. Agent frameworks or orchestrato
 
 To support these workflows, modern agentic systems include monitoring and oversight tools. Dashboards provide real-time visibility into agent states, task queues, and decision outcomes. Review panels offer granular inspection of individual agent actions, including input parameters, intermediate reasoning traces, and generated outputs. These panels enable approvers to trace how a decision was made and intervene if needed. Audit trails capture the complete history of agent behavior, making it possible to reconstruct workflows, trace accountability, and satisfy regulatory requirements.
 
-Regulatory frameworks such as SOX, HIPAA, and GDPR all require traceability and control over automated decisions. Agentic systems must comply by default, not as an afterthought. The ability to enforce task verification and document approvals is essential for adoption in sectors with governance mandates.
+Regulatory frameworks such as SOX, HIPAA, and GDPR all require traceability and control over automated decisions. Agentic systems must comply by default. The ability to enforce task verification and document approvals is essential for adoption in sectors with governance mandates.
 
 By combining approval gates, monitoring tools, and audit trails, developers can ensure that agentic workflows remain under supervision without sacrificing efficiency. These mechanisms allow agents to operate autonomously, but reintroduce human judgment when stakes or uncertainty increase. In doing so, they make the system more resilient, traceable, and trustworthy.
 
 ## Visualizing Agent Decision-Making for Governance and Confidence
 
-As multi-agent systems take on increasingly autonomous roles within enterprise workflows, the need to understand how and why decisions are made becomes a foundational requirement, not only for debugging and development, but also for compliance, auditing, and user trust. Visualizing how agents make decisions helps connect model behavior with meaningful human oversight. It turns opaque decision processes into understandable views that can be reviewed and audited.
+As multi-agent systems take on increasingly autonomous roles within enterprise workflows, the need to understand how and why decisions are made becomes a foundational requirement for compliance, auditing, and user trust. Visualizing how agents make decisions helps connect model behavior with meaningful human oversight. It turns opaque decision processes into understandable views that can be reviewed and audited.
 
 There are several effective techniques for rendering these decision paths. One common approach is the use of directed graphs that show agent interactions across a task sequence. Each node in the graph represents an agent invocation or decision point, while edges capture tool calls, data handoffs, or inter-agent communication. By walking the graph, a human reviewer can trace the evolution of the system's behavior from input to final response, observing where decisions branched, were delegated, or retried.
 
@@ -75,7 +75,7 @@ Structured summaries provide a high-level abstraction of what occurred during an
 
 Observability features built into modern agent frameworks make these visualizations possible. Platforms may include built-in tracing systems that log every agent run with metadata: input, tool call structure, output types, and nested agent invocations. Orchestrators may expose message flow, agent state, and routing history across distributed deployments. These systems generate trace data that can be visualized automatically or when needed.
 
-Auditors and risk managers require visibility into not just what a system did, but why it did it. Visual inspection helps validate policy compliance, catch irregularities, and confirm that decisions align with required standards. It also supports incident investigation, enabling teams to reconstruct the exact path taken by an agentic system in response to a specific input.
+Auditors and risk managers require visibility into what a system did and why it did it. Visual inspection helps validate policy compliance, catch irregularities, and confirm that decisions align with required standards. It also supports incident investigation, enabling teams to reconstruct the exact path taken by an agentic system in response to a specific input.
 
 Visualizations also help developers and stakeholders better understand and trust system behavior. They demystify agent behavior, uncover design flaws, and facilitate more transparent conversations between technical teams and business owners. In high-stakes environments where agentic decisions must be trusted, clarity is as important as correctness. When integrated from the start, visual tools become foundational for building safe and explainable AI systems.
 
@@ -91,4 +91,4 @@ Designing these systems requires attention to the varied needs of different stak
 
 This means agent outputs are not presented as static artifacts. Instead, they are rendered as living objects: inspectable, correctable, and traceable. If a financial report is generated by an agent network, an analyst should be able to trace a line item to the tool call and input data that produced it. If a recommendation is made by a support bot, a manager should be able to view the agents and sub-decisions that contributed to the response. This is essential infrastructure for trust, accountability, and adoption.
 
-Adaptive UX makes complex workflows interpretable, aligns outputs with user expectations, and creates a shared space for human–agent collaboration. The systems that succeed will be the ones that not only compute correct answers, but also know how to explain themselves clearly to the right people at the right time.
+Adaptive UX makes complex workflows interpretable, aligns outputs with user expectations, and creates a shared space for human–agent collaboration. The systems that succeed will be the ones that know how to explain themselves clearly to the right people at the right time.
