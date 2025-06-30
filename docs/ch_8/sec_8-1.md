@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 8.1 Deployment Options: Cloud, On-Premise, and Hybrid Systems
+title: 8.1 Deployment Options – Cloud, On-Premise, and Hybrid Systems
 parent: 8. Deploying and Managing Multi-Agent Systems in Production
 nav_order: 1
 ---
 
-# Deployment Options: Cloud, On-Premise, and Hybrid Systems
+# Deployment Options – Cloud, On-Premise, and Hybrid Systems
 
 ## Production-Grade Multi-Agent AI
 
