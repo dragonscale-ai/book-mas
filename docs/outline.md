@@ -12,7 +12,7 @@ The book has been structured around various business and technical roles to allo
 ## **1. Understanding the Evolution of AI: From Tools to Autonomous Systems**  
 - **Roles**: Common
 - **The rise of AI tools and their limitations in solving complex problems**  
-  - [Evolution of traditional AI tools: Single-task focus and lack of adaptability]({% link _ch_1/sec_1-1.md %})
+  - [Evolution of traditional AI tools: Single-task focus and lack of adaptability]({% link ch_1/sec_1-1.md %})
   - Challenges in complex workflows: Inflexibility and high manual intervention.  
 - **Why autonomy matters: Lessons from early systems to modern agentic AI**  
   - Case studies from early automation systems highlighting bottlenecks.  
