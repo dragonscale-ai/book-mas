@@ -95,7 +95,7 @@ The book has been structured around various business and technical roles to allo
 
 ## **8. Deploying and Managing Multi-Agent Systems in Production**  
 - **Roles**: DevOps, Sysops, Application Developer  
-- [Exploring deployment options: Cloud, on-premise, and hybrid systems]({% link ch_8/sec_8-1.md %})
+- [Deployment options - Cloud, on-premise, and hybrid systems]({% link ch_8/sec_8-1.md %})
   - Comparison of deployment models for scalability and cost-efficiency  
   - Real-world examples of multi-agent production environments aligned with feasibility studies  
 - **Ensuring robust monitoring and observability in live environments**  
