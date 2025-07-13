@@ -101,7 +101,7 @@ The book has been structured around various business and technical roles to allo
 - [Ensuring robust monitoring and observability in live environments]({% link ch_8/sec_8-2.md %})
   - Tools and techniques for tracing and debugging agent workflows  
   - Metrics-driven performance analysis for operational stability and value realization  
-- **Scaling systems efficiently to handle dynamic workloads**  
+- [Scaling systems efficiently to handle dynamic workloads]({% link ch_8/sec_8-3.md %})
   - Leveraging dynamic resource allocation for agents  
   - Ensuring fault tolerance through distributed task orchestration  
 
