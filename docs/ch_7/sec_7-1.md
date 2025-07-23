@@ -84,3 +84,13 @@ Effective reviews depend on precise knowledge of how information moves through t
 Once threat models are established, the design should align with enterprise policies and regulatory mandates. This alignment is not a one-time audit; it is enforced continuously through observability and traceability tooling. Structured logs, distributed traces, and immutable audit records capture every agent action, tool call, and data access. Security teams correlate these artifacts with policy engines that flag violations in real time and provide the evidence needed for compliance reporting. In regulated industries, these capabilities show who accessed what data, under what authorization, and why.
 
 By integrating security checkpoints into design reviews, documenting data flows for threat modeling, and instrumenting the runtime with policy-aware observability, enterprises build AI systems that are both innovative and defensible. This approach treats security as a core design requirement, enabling deployment of agent-based systems in sensitive or regulated environments.
+
+## Key Takeaways
+
+- Security Ops: Agent sprawl is a threat surface; sandboxing, scoped RBAC, and encrypted comms are baseline controls to limit lateral risk and detect abuse at the edge.
+
+- CIO: Multi-agent AI demands a shift from perimeter defense to zero-trust architecture; security must be native to design, not retrofitted after deployment.
+
+- CDO: Data boundaries in agent workflows hinge on vertical and horizontal isolation; without them, policy enforcement and compliance are brittle by default.
+
+- Domain Expert: Agents can accelerate operations, but without guardrails and auditability, they risk leaking sensitive data or acting outside intended bounds.
