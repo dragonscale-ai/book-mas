@@ -107,7 +107,7 @@ The book has been structured around various business and technical roles to allo
 
 ## **9. Driving Continuous Improvement in Agentic AI Systems**  
 - **Roles**: AI/Backend Developer, Product Manager, Architect  
-- **Lifelong learning: Enabling agents to adapt and improve over time**  
+- [Enabling agents to adapt and improve over time]({% link ch_9/sec_9-1.md %})
   - Integrating learning mechanisms for episodic and procedural memory updates  
   - Continuous deployment pipelines for iterative agent enhancement informed by pilot feedback loops  
 - **Using performance metrics to refine workflows and behaviors**  
