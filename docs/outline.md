@@ -110,7 +110,7 @@ The book has been structured around various business and technical roles to allo
 - [Enabling agents to adapt and improve over time]({% link ch_9/sec_9-1.md %})
   - Integrating learning mechanisms for episodic and procedural memory updates  
   - Continuous deployment pipelines for iterative agent enhancement informed by pilot feedback loops  
-- **Using performance metrics to refine workflows and behaviors**  
+- [Using performance metrics to refine workflows and behaviors]({% link ch_9/sec_9-2.md %})
   - Automated feedback loops for error correction and efficiency gains  
 - **Bridging the gap between deterministic rules and probabilistic reasoning**  
   - Balancing structured code and LLM-driven reasoning for optimal performance  
