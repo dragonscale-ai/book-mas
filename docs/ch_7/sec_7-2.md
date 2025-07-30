@@ -90,6 +90,9 @@ Enterprises that treat privacy as a system-level property gain more than regulat
 ## Key Takeaways
 
 - Security Ops: Agent behavior must be constrained by default; guardrails and audit logs are essential to prevent and trace sensitive data leaks in real time.
+
 - CIO: AI systems without built-in privacy controls pose long-term compliance risks; enforcing privacy by design is now critical infrastructure.
+
 - CDO: Anonymization must be embedded at the data pipeline level; retrofitting privacy downstream leaves gaps and increases exposure risk.
+
 - Domain Expert: Each agent should only see what it needs; role-based access and data minimization are key to safe, task-specific AI workflows.
