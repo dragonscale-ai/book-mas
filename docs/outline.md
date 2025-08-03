@@ -112,7 +112,7 @@ The book has been structured around various business and technical roles to allo
   - Continuous deployment pipelines for iterative agent enhancement informed by pilot feedback loops  
 - [Using performance metrics to refine workflows and behaviors]({% link ch_9/sec_9-2.md %})
   - Automated feedback loops for error correction and efficiency gains  
-- **Bridging the gap between deterministic rules and probabilistic reasoning**  
+- [Bridging the gap between deterministic rules and probabilistic reasoning]({% link ch_9/sec_9-3.md %})
   - Balancing structured code and LLM-driven reasoning for optimal performance  
 
 ## **10. Real-World Case Studies: How Businesses Are Harnessing Agentic AI**  
