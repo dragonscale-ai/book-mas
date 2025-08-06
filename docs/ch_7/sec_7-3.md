@@ -74,3 +74,13 @@ To support this level of transparency, agentic systems must be architected for i
 Compliance frameworks themselves will not remain static. As new regulations introduce AI risk classification tiers, fairness constraints, or application-specific obligations, agent systems must adapt without requiring full rewrites. Modular compliance architecture provides this flexibility by isolating policy enforcement, traceability, and memory scoping into interchangeable components. When standards evolve, new modules can be deployed, or existing ones updated, without disrupting core system logic. This flexibility ensures compliance updates are manageable rather than disruptive.
 
 Oversight remains incomplete without the inclusion of human-in-the-loop mechanisms. These controls allow humans to intervene at key junctures, particularly in high-impact or high-risk scenarios. Interfaces should expose agent reasoning paths in interpretable form, enabling real-time approvals, escalations, or overrides. Whether in legal review, medical triage, or customer dispute resolution, the ability to inspect and influence agent behavior without interrupting the broader system is essential. These oversight layers serve as fail-safes and compliance features that demonstrate due diligence and governance by design.
+
+## Key Takeaways
+
+- Security Ops: Lack of traceability for agents obscures decision paths and data flows. Without structured logs and scoped memory, security teams can't verify policy enforcement or detect unauthorized access.
+
+- CIO: Retrofitting compliance into AI systems adds technical complexity. Embedding auditability, access control, and policy enforcement from day one accelerates deployment and reduces long-term risk.
+
+- CDO: Agentic AI without memory isolation or data governance risks regulatory breaches. Tie agent roles to data zones to prevent leakage and maintain control over sensitive assets.
+
+- Domain Expert: Opaque AI decisions in critical workflows erode trust. Enterprise-ready agents must explain their reasoning to support oversight, especially in environments like finance or healthcare.
