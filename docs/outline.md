@@ -115,9 +115,9 @@ The book has been structured around various business and technical roles to allo
 - [Bridging the gap between deterministic rules and probabilistic reasoning]({% link ch_9/sec_9-3.md %})
   - Balancing structured code and LLM-driven reasoning for optimal performance  
 
-## **10. Real-World Case Studies: How Businesses Are Harnessing Agentic AI**  
+## **10. How Businesses Are Harnessing Agentic AI**  
 - **Roles**: Common  
-- **Financial transformation: Automating month-end close processes**  
+- [Financial Transformation with Multi-Agent AI]({% link ch_10/sec_10-1.md %})
   - Implementation of data ingestion pipelines and report generation agents  
 - **Streamlining telecom support: Coordinating diagnostics and upgrades**  
   - Agent networks for troubleshooting and customer communication  
