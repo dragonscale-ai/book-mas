@@ -99,6 +99,10 @@ Transparency also plays a preventative role. By surfacing decisions as they are 
 
 Ultimately, dynamic, context-aware UIs become a shared interface between the user and the agent network. They mediate data, commands, confidence, and accountability. When implemented correctly, these interfaces do more than just display results; they tell the story of how those results came to be, and they invite the user to participate in shaping the outcome. This is the foundation of trust in intelligent systems.
 
+## Dragonscale Impact
+
+Agentic systems break linear UI assumptions. Workflows can mutate at runtime as agents delegate, which makes static routes and hand-crafted pages a bottleneck that lags rapidly changing tools and state. Dragonscale closes that gap by deriving interfaces from the system itself: agents speak English plus structured UI, emit canonical JSON messages, and are organized by a guild specification in JSON. Its “tools as agents” model turns APIs, sensors, and humans into first-class participants, so new capabilities appear in the UI without rework. Topic-based pub/sub plus routing slips keep flows coherent while execution engines scale from single thread to Ray. Data-driven UI-generation maps tool schemas to forms, tables, and charts at runtime. Built-in observability streams traces to the UI, enabling live task introspection, correction, and trust for users.
+
 ## Key Takeaways
 
 - Front End Developer: UI code shouldn't be hardcoded; generate interfaces dynamically from agent metadata and traces to keep pace with changing workflows without constant rewrites.
