@@ -119,7 +119,7 @@ The book has been structured around various business and technical roles to allo
 - **Roles**: Common  
 - [Financial Transformation with Multi-Agent AI]({% link ch_10/sec_10-1.md %})
   - Implementation of data ingestion pipelines and report generation agents  
-- **Streamlining telecom support: Coordinating diagnostics and upgrades**  
+- [Streamlining Telecom Support with Coordinated Diagnostics and Upgrades]({% link ch_10/sec_10-2.md %})
   - Agent networks for troubleshooting and customer communication  
 - **Revolutionizing e-commerce: Enhancing customer service with intelligent escalation paths**  
   - Modular design for integrating multi-agent customer support workflows aligned to automation patterns  
