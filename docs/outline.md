@@ -126,7 +126,7 @@ The book has been structured around various business and technical roles to allo
 
 ## **11. The Future of Agentic AI and Its Role in Business Transformation**  
 - **Roles**: Common  
-- **Exploring emerging trends: Multi-modal reasoning and distributed intelligence**  
+- [Multi-modal reasoning and distributed intelligence]({% link ch_11/sec_11-1.md %}) 
   - Combining vision, language, and action in multi-agent workflows  
 - **Preparing for autonomous AI: The next phase of agentic systems**  
   - Steps toward self-optimizing and autonomous agent networks informed by ongoing pilot execution insights  
