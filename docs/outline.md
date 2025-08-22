@@ -121,7 +121,7 @@ The book has been structured around various business and technical roles to allo
   - Implementation of data ingestion pipelines and report generation agents  
 - [Streamlining Telecom Support with Coordinated Diagnostics and Upgrades]({% link ch_10/sec_10-2.md %})
   - Agent networks for troubleshooting and customer communication  
-- **Revolutionizing e-commerce: Enhancing customer service with intelligent escalation paths**  
+- [Enhancing customer service with intelligent escalation paths]({% link ch_10/sec_10-3.md %})
   - Modular design for integrating multi-agent customer support workflows aligned to automation patterns  
 
 ## **11. The Future of Agentic AI and Its Role in Business Transformation**  
