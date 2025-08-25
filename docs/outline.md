@@ -128,7 +128,7 @@ The book has been structured around various business and technical roles to allo
 - **Roles**: Common  
 - [Multi-modal reasoning and distributed intelligence]({% link ch_11/sec_11-1.md %}) 
   - Combining vision, language, and action in multi-agent workflows  
-- [Preparing for autonomous AI: The next phase of agentic systems]({% link ch_11/sec_11-2.md %})
+- [Preparing for autonomous AI]({% link ch_11/sec_11-2.md %})
   - Steps toward self-optimizing and autonomous agent networks informed by ongoing pilot execution insights  
 - **Shaping the future: Collaborating with AI as adaptive, strategic partners**  
   - Co-creating workflows where AI complements human decision-making within enterprise-aligned frameworks  
