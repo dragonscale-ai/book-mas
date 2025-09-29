@@ -93,6 +93,10 @@ This means agent outputs are not presented as static artifacts. Instead, they ar
 
 Adaptive UX makes complex workflows interpretable, aligns outputs with user expectations, and creates a shared space for human–agent collaboration. The systems that succeed will be the ones that know how to explain themselves clearly to the right people at the right time.
 
+## Dragonscale Impact
+
+Enterprise agents are taking consequential actions across HR, finance, and operations, yet their probabilistic reasoning remains opaque and hard to audit. Errors can cascade across agent chains, so teams need human checkpoints, explainability, and recoverability to satisfy governance and reduce risk. Dragonscale addresses this with guilds in which human agents are first-class and can take approval steps that pause execution until a review message arrives. Built-in observability uses OpenTelemetry and Zipkin to trace every agent call, surface real-time metrics, and render topology maps of interactions, showing auditors a concrete decision path. Structured interfaces pair English input with UI controls, enabling operators to edit intermediate state and trigger targeted re-runs over the message bus. Canonical JSON schemas, at-least-once or exactly-once delivery, and cost tracking turn runs into auditable records. Local debugging can be promotion-tested to distributed execution, improving safety while scaling reliability.
+
 ## Key Takeaways
 
 - Front End Developer: Expose agent decisions through traceable, editable UI components; design interfaces that let users inspect, correct, and verify actions in real time.
