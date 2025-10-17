@@ -1,5 +1,5 @@
-title: Multi-Agent Systems
-description: An exploration of the transformative power of multi-agent AI systems, guiding businesses and developers in designing, deploying, and managing autonomous AI agents to enhance efficiency, scalability, and adaptability across various industries.
+title: Agentic AI Systems
+description: An exploration of the transformative power of Agentic AI systems, guiding businesses and developers in designing, deploying, and managing autonomous AI agents to enhance efficiency, scalability, and adaptability across various industries.
 
 # Use a remote theme
 theme: just-the-docs
@@ -9,13 +9,14 @@ search_enabled: true
 nav_sort: case_insensitive
 
 # URL settings
-url: https://mas-book.dragonscale.ai
+url: https://agenticaiguide.ai
 baseurl: /
 
 # Build settings
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # File handling
 relative_links:
